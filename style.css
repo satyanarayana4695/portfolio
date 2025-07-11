@@ -1,0 +1,46 @@
+/* ===== Global Styles ===== */
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth;}
+body{font-family:Arial,Helvetica,sans-serif;color:#212121;line-height:1.6;background:#fafafa;}
+
+/* Navigation */
+header{background:#0d47a1;position:fixed;top:0;left:0;width:100%;z-index:1000;box-shadow:0 2px 4px rgba(0,0,0,0.1);}
+nav{display:flex;justify-content:center;gap:1.5rem;padding:0.75rem 1rem;}
+nav a{color:#fff;text-decoration:none;font-weight:bold;transition:opacity 0.3s;}
+nav a:hover{opacity:0.8;}
+
+/* Hero */
+.hero{padding-top:80px;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#e3f2fd;text-align:center;}
+.hero img{width:180px;height:180px;border-radius:50%;object-fit:cover;box-shadow:0 4px 12px rgba(0,0,0,0.15);}
+.hero h1{margin:1.2rem 0 0.3rem;font-size:2.1rem;color:#0d47a1;}
+.highlight{color:#1976d2;}
+.subtitle{font-size:1rem;color:#424242;margin-bottom:1.2rem;}
+.btn{display:inline-block;background:#0d47a1;color:#fff;padding:0.6rem 1.4rem;border-radius:4px;text-decoration:none;font-weight:bold;transition:background 0.3s;}
+.btn:hover{background:#1565c0;}
+
+/* Sections */
+section{padding:4rem 1rem;max-width:900px;margin:0 auto;}
+section h2{font-size:1.7rem;margin-bottom:1rem;color:#0d47a1;}
+
+/* About */
+.about p{margin-bottom:1rem;text-align:justify;}
+
+/* Skills */
+.skill-list{list-style:square inside;margin-left:0.5rem;columns:2;gap:1rem;}
+.skill-list li{margin-bottom:0.4rem;}
+
+/* Projects */
+.project-card{background:#fff;border-radius:8px;padding:1rem 1.2rem;margin-bottom:1.5rem;box-shadow:0 2px 6px rgba(0,0,0,0.08);}
+.project-card h3{color:#1565c0;margin-bottom:0.5rem;}
+.code{font-family:"Courier New",monospace;background:#e0e0e0;padding:0 0.3rem;border-radius:3px;}
+
+/* Contact */
+.contact p{margin-bottom:0.6rem;font-size:1rem;}
+.contact a{color:#1565c0;text-decoration:none;}
+.contact a:hover{text-decoration:underline;}
+
+/* Resume section */
+.resume{text-align:center;}
+.resume .btn{margin-top:0.5rem;}
+
+/* Footer */
+footer{background:#0d47a1;color:#fff;text-align:center;padding:0.75rem;font-size:0.9rem;margin-top:2rem;}
